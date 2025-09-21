@@ -91,8 +91,6 @@ Once the server is running, open your browser and navigate to http://localhost:4
 
 For more information on using the Angular CLI, including detailed command references, visit the Angular CLI Overview and Command Reference page.
 
-# Project File Structure
-
 .
 ├── public
 └── src
