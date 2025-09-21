@@ -64,7 +64,8 @@ Should output Angular CLI version 19.2.15.
 
 # Clone the repository:
 ```bash
-git clone https://github.com/your-repo/makeupbeauty.git
+
+git clone https://github.com/ManuelSMC/makeupbeauty.git
 ```
 
 Navigate to the project directory:
