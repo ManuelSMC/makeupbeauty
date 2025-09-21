@@ -91,26 +91,3 @@ Once the server is running, open your browser and navigate to http://localhost:4
 # Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the Angular CLI Overview and Command Reference page.
-
-.
-├── public
-└── src
-    ├── app
-    │   ├── pages
-    │   │   ├── auth
-    │   │   │   ├── login
-    │   │   │   └── register
-    │   │   ├── carrito
-    │   │   │   └── carrito
-    │   │   ├── categorias
-    │   │   │   ├── labios
-    │   │   │   ├── ojos
-    │   │   │   └── rostros
-    │   │   └── homepage
-    │   │       └── homepage
-    │   └── shared
-    │       ├── footer
-    │       └── header
-    └── assets
-
-19 directories
