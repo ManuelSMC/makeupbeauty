@@ -1,0 +1,37 @@
+<div class="header-container">
+  <div class="desktop-header">
+    <div class="logo" (click)="goToHome()">
+      <img src="assets/logo.png" alt="Makeup Beauty Logo">
+    </div>
+    <div class="nav-links">
+      <p-button label="Ojos" styleClass="nav-btn" (onClick)="navigateTo('ojos')">
+        <img src="assets/ojo.png" alt="Ojos" class="nav-btn-img">
+      </p-button>
+      <p-button label="Labios" styleClass="nav-btn" (onClick)="navigateTo('labios')">
+        <img src="assets/labio.png" alt="Labios" class="nav-btn-img">
+      </p-button>
+      <p-button label="Rostro" styleClass="nav-btn" (onClick)="navigateTo('rostros')">
+        <img src="assets/flor.png" alt="Rostro" class="nav-btn-img">
+      </p-button>
+    </div>
+    <div class="nav-icons">
+      <p-button styleClass="nav-icono" (onClick)="goToCart()">
+        <img src="assets/cart.png" alt="Cart">
+      </p-button>
+      <p-button styleClass="nav-icono" (onClick)="goToProfile()">
+        <img src="assets/user.png" alt="User">
+      </p-button>
+      <p-button styleClass="nav-icono" (onClick)="goToSearch()">
+        <img src="assets/search.png" alt="Search">
+      </p-button>
+      <p-button styleClass="nav-icono" (onClick)="logout()">
+        <img src="assets/logout.png" alt="Logout">
+      </p-button>
+    </div>
+  </div>
+  <div class="mobile-header">
+    <div class="logo" (click)="goToHome()">
+      <img src="assets/logo.png" alt="Makeup Beauty Logo">
+    </div>
+  </div>
+</div>

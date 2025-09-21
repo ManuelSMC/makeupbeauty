@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --p-background-color: #FFF1F6 !important;
+}
+html, body {
+  background-color: #FFF1F6 !important;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #FFF1F6 !important;
+}
+
+.p-card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: 30% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+

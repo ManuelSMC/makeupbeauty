@@ -1,0 +1,18 @@
+<div class="login-container" [style.backgroundImage]="'url(' + backgroundImage + ')'">
+  <div class="login-card">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Makeup Beauty Logo">
+    </div>
+    <h2 class="welcome-text">Bienvenid&#64; ✨</h2>
+    <form>
+      <div class="input-field">
+        <input pInputText type="text" placeholder="Correo electrónico" />
+      </div>
+      <div class="input-field">
+        <input pInputText type="password" placeholder="Contraseña" />
+      </div>
+      <p-button label="Iniciar Sesión" styleClass="login-btn"></p-button>
+      <p class="register-link">¿No tienes cuenta? <a href="/auth/register">Regístrate aquí</a></p>
+    </form>
+  </div>
+</div>
